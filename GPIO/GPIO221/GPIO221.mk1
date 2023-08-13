@@ -1,0 +1,17 @@
+!define BLANK ""
+C:\Users\evoc\Desktop\watcom_proj\GPIO\GPIO221\GPIO221.obj : C:\Users\evoc\D&
+esktop\watcom_proj\GPIO\GPIO221\GPIO221.C .AUTODEPEND
+ @C:
+ cd C:\Users\evoc\Desktop\watcom_proj\GPIO\GPIO221
+ *wcc386 GPIO221.C -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -6r -bt=dos -fo=.ob&
+j -mf
+
+C:\Users\evoc\Desktop\watcom_proj\GPIO\GPIO221\GPIO221.exe : C:\Users\evoc\D&
+esktop\watcom_proj\GPIO\GPIO221\GPIO221.obj .AUTODEPEND
+ @C:
+ cd C:\Users\evoc\Desktop\watcom_proj\GPIO\GPIO221
+ @%write GPIO221.lk1 FIL GPIO221.obj
+ @%append GPIO221.lk1 
+ *wlink name GPIO221 d all sys causeway op m op maxe=25 op q op symf @GPIO22&
+1.lk1
+

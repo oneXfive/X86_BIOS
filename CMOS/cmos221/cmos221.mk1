@@ -1,0 +1,17 @@
+!define BLANK ""
+C:\Users\evoc\Desktop\watcom_proj\CMOS\cmos221\cmos.obj : C:\Users\evoc\Desk&
+top\watcom_proj\CMOS\cmos221\cmos.c .AUTODEPEND
+ @C:
+ cd C:\Users\evoc\Desktop\watcom_proj\CMOS\cmos221
+ *wcc386 cmos.c -i="C:\WATCOM/h" -w4 -e25 -zq -od -d2 -6r -bt=dos -fo=.obj -&
+mf
+
+C:\Users\evoc\Desktop\watcom_proj\CMOS\cmos221\cmos221.exe : C:\Users\evoc\D&
+esktop\watcom_proj\CMOS\cmos221\cmos.obj .AUTODEPEND
+ @C:
+ cd C:\Users\evoc\Desktop\watcom_proj\CMOS\cmos221
+ @%write cmos221.lk1 FIL cmos.obj
+ @%append cmos221.lk1 
+ *wlink name cmos221 d all sys causeway op m op maxe=25 op q op symf @cmos22&
+1.lk1
+

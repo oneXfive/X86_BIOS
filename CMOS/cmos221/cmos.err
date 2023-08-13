@@ -1,0 +1,2 @@
+cmos.c(19): Warning! W200: 'value' has been referenced but never assigned a value
+cmos.c(51): Error! E1011: Symbol 'k' has not been declared

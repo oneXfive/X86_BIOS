@@ -1,0 +1,40 @@
+
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = write241
+  FILE_GUID                      = 4ea97c46-aaaa-ffff-0055-747010f3ce00
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+#   
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+  write241.c
+
+[Packages]
+  StdLib/StdLib.dec   
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec 
+
+
+[LibraryClasses]
+  LibC
+  IoLib
+  DevShell
+  LibStdio
+  ShellCEntryLib   
+  ShellLib
+  BaseLib
+  BaseMemoryLib
+  UefiLib
+
+  
+[Protocols]
+
+  
+[BuildOptions]

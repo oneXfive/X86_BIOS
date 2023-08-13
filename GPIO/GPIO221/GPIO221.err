@@ -1,0 +1,9 @@
+GPIO221.C(195): Warning! W111: Meaningless use of an expression
+GPIO221.C(199): Warning! W111: Meaningless use of an expression
+GPIO221.C(203): Warning! W111: Meaningless use of an expression
+GPIO221.C(207): Warning! W111: Meaningless use of an expression
+GPIO221.C(211): Warning! W111: Meaningless use of an expression
+GPIO221.C(215): Warning! W111: Meaningless use of an expression
+GPIO221.C(219): Warning! W111: Meaningless use of an expression
+GPIO221.C(223): Warning! W111: Meaningless use of an expression
+GPIO221.C(490): Warning! W131: No prototype found for function 'read'

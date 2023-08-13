@@ -1,0 +1,47 @@
+
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = spd11171
+  FILE_GUID                      = 4ea97c46-cccc-feef-2233-747010f3ce51
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = ShellCEntryLib
+
+#   
+#  VALID_ARCHITECTURES           = IA32 X64 IPF
+#
+
+[Sources]
+  spd11171.c
+
+[Packages]
+  StdLib/StdLib.dec   
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+  uefi/book/Uutil/Uutil.dec 
+
+  
+
+
+[LibraryClasses]
+  LibC
+  LibStdio
+  ShellCEntryLib   
+  ShellLib
+  BaseLib
+  BaseMemoryLib
+  UefiLib
+  IoLib
+  DevShell
+  
+
+  
+[Protocols]
+gEfiSimpleFileSystemProtocolGuid                        # ALWAYS_CONSUMED
+
+  
+[BuildOptions]
+ MSFT:*_*_*_CC_FLAGS = /w
+ MSFT:DEBUG_*_IA32_CC_FLAGS = /Od

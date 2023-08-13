@@ -1,0 +1,25 @@
+CPU Manufacturer:GenuntelineI
+CPU String:      Intel(R) Celeron(R) CPU  J1900  @ 1.99GHz
+CPU Basic Parameters: Family:6  Model:7  Stepping ID:9
+CPU Extended Parameters: Family:0  Model:0  Stepping ID:0
+CPU String Index:0x0
+CLFLUSH Size:0x8
+APIC number:0x0
+FPU:  1		VME:  1		DE:  1
+PSE:  1		TSC:  1		MSR:  1
+PAE:  1		MCE:  1		CX8:  1
+APIC:  1	SEP:  1		MTRR:  1
+PGE:  1		MCA:  1		CMOV:  1
+PAT:  1		PSE-36:  1	PSN:  0
+CLFSN:  1	DS:  1		ACPI:  1
+MMX:  1		FXSR:  1	SSE:  1
+SSE2:  1	SS:  1		TM:  1
+
+Other Info:
+----------------------------------------
+In 		EAX 		EBX 		ECX 		EDX
+0x80000004	0x47312031	0x00007A48	0x00000000	0x00000000
+0x80000005	0x00000000	0x00000000	0x00000000	0x00000000
+0x80000006	0x00400000	0x00000000	0x00000000	0x00000000
+0x80000007	0x00000000	0x00000001	0x00000000	0x00000000
+0x80000008	0x00000024	0x00000000	0x00000000	0x00000000
